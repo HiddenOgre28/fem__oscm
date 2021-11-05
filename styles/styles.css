@@ -1,14 +1,153 @@
-.body {
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
   margin: 0;
-  background-color: blue;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-color: #e0e8ff;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 3%;
 }
 
 .attribution a {
   color: #3e52a3;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.card {
+  width: 85%;
+  max-width: 450px;
+  height: auto;
+  margin: 15% auto;
+  background-color: white;
+  border-radius: 1.5rem;
+  text-align: center;
+  -webkit-box-shadow: 0 1rem 1rem 0 #cdc9d4;
+          box-shadow: 0 1rem 1rem 0 #cdc9d4;
+}
+
+.description__hero {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  width: 100%;
+}
+
+.description__title {
+  font-weight: 900;
+  color: #1f2f56;
+  margin: 8% auto 6% auto;
+}
+
+.description__p {
+  color: #7280a7;
+  margin: 0 10% 10% 10%;
+  line-height: 2rem;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  background-color: #f5f7ff;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.plan__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  margin: 5% 0;
+}
+
+.plan__description__pContainer__ap {
+  font-weight: 900;
+}
+
+.plan__description__pContainer__pp {
+  color: #7280a7;
+}
+
+.plan__btn {
+  color: #3829e0;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons__btn {
+  background: #3829e0;
+  margin: 7% auto;
+  padding: 5%;
+  width: 85%;
+  font-weight: 900;
+  color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 1rem 0 #cdc9d4;
+          box-shadow: 0 1rem 1rem 0 #cdc9d4;
+}
+
+.buttons__cancel {
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  color: #7280a7;
+  margin-top: -7%;
 }
 /*# sourceMappingURL=styles.css.map */
