@@ -12,14 +12,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-I coded a card designed by Frontend Mentor to test, and ultimately improve, my CSS habilities.
 
 ### The challenge
 
@@ -29,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop screenshot](../images/screenshot.png)
+![Desktop screenshot](https://i.imgur.com/MZmmeAm.png)
 
 ### Links
 
