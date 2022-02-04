@@ -52,10 +52,13 @@ While styling the card and researching for this challenge, I learned about:
 - The box-shadow property.
 - The importance of utilizing hsl() for colors.
 - To work with svg-type images.
+
 ### Continued development
 
 I haven't fully grasped how to build a layout using Grid yet, so I would be reading about it and trying it out myself, so I can use Grid in my next challenge.
+
 ## Author
 
-- GitHub - [Yasmin Ledesma](https://github.com/HiddenOgre28)
+- GitHub - [Yasmin Ledesma](https://github.com/yasledesma)
 - Frontend Mentor - [@HiddenOgre28](https://www.frontendmentor.io/profile/HiddenOgre28)
+- Twitter - [@yasledesma28](https://www.twitter.com/yasledesma28)
